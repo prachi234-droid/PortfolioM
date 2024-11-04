@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f3f0ff;
+            color: #4A148C;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .text-center {
+            color: #6A1B9A; /* Light Purple */
+            font-weight: bold;
+        }
+
+        .card {
+            background-color: #EDE7F6; /* Light Lavender */
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card-img-top {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            color: #4A148C; /* Darker Purple */
+            font-weight: bold;
+        }
+
+        .btn-secondary {
+            background-color: #6A1B9A; /* Light Purple */
+            border: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background-color: #4A148C; /* Darker Purple */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">My Projects</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="portp.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1: Portfolio Website</h5>
+                        <p class="card-text">A responsive portfolio website created using HTML, CSS, JavaScript, and Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="online.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2: E-commerce Platform</h5>
+                        <p class="card-text">An online bookstore allowing users to add and remove items from a cart, built with Django.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="att.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3: Attendance System</h5>
+                        <p class="card-text">A QR code-based attendance management system for student tracking, developed in Java.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+        <a href="certificates.html" class="btn btn-secondary mt-4 d-block mx-auto">View My Certificates</a>
+    </div>
+</body>
+</html>
+

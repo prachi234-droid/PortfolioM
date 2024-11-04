@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skills and Languages - Prachi's Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Combined Section Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f0ff;
+            color: #4A148C; /* Dark purple */
+        }
+
+        .skills-languages-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 60px 20px;
+            color: #fff;
+        }
+
+        .skills-section, .languages-section {
+            flex: 1;
+            margin: 0 20px;
+            background-color: #8E24AA; /* Purple */
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Skill Bar Styles */
+        .skill-bar {
+            margin: 20px 0;
+        }
+
+        .skill-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .progress {
+            background-color: #e0d5f7;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 30px;
+        }
+
+        .progress-bar {
+            background: linear-gradient(to right, #6A1B9A, #AB47BC); /* Gradient for purple shades */
+            height: 100%;
+            border-radius: 20px 0 0 20px; /* Curved end on the left */
+        }
+
+        /* Languages Section Styles */
+        .language-item {
+            background-color: #BA68C8; /* Light purple */
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Section Title */
+        .section-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <section class="skills-languages-section">
+        <div class="skills-section">
+            <h1 class="section-title">My Skills</h1>
+            <div class="skill-bar">
+                <div class="skill-title">Web Development <span>90%</span></div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-title">JavaScript <span>85%</span></div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-title">Python <span>80%</span></div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-title">Communication <span>95%</span></div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 95%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="languages-section">
+            <h1 class="section-title">Languages I Know</h1>
+            <div class="language-item">
+                English <span>Intermediate</span>
+            </div>
+            <div class="language-item">
+                Hindi <span>Fluent</span>
+            </div>
+            <div class="language-item">
+                Marathi <span>Native</span>
+            </div>
+            <div class="language-item">
+                Spanish <span>Beginner</span>
+            </div>
+            <!-- Add more languages as needed -->
+            <a href="portfolio.html" class="btn btn-explore mt-4">Explore My Portfolio</a>
+        </div>
+    </section>
+</body>
+</html>
+
+
